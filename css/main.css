@@ -1615,16 +1615,31 @@ header .text-part {
  *
  * ------------------------------------------------------------------- */
 
-.ice {
-    padding: 12rem 0 12rem;
-    background-color: #F0FFF0;
-    overflow: hidden;
+.salmon {
+    background: rgb(255, 160, 120);
+    padding-top: 12rem;
+    padding-bottom: 9.6rem;
 }
 
-.ice a,
-.ice a:visited,
-.yellow a,
-.yellow a:visited {
+.salmon p, 
+em,
+i,
+strong,
+b {
+    font-size: 2.1rem;
+    line-height: 3rem;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.salmon a,
+.salmon a:link {
+    color:#4B0082;
+}
+.salmon a:hover {
+    color:#000080;
+}
+.salmon a:visited {
     color: rgb(210, 1, 60);
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -1633,25 +1648,46 @@ header .text-part {
     transition: all 0.3s ease-in-out;
 }
 
-.ice .scopeandtopics-wrap {
+
+#registration .lead {
+    column-count: 1;
+    font-family: "roboto-regular", sans-serif;
+    text-align: center;
+}
+
+.lemon {
+    padding: 12rem 0 12rem;
+    background-color: #FFFACD;
+    overflow: hidden;
+}
+
+.lemon a:link {
+    color:#FF4500;
+}
+.lemon a:hover{
+    color:#B22222;
+}
+.lemon a:visited,
+
+.lemon .scopeandtopics-wrap {
     margin-top: 1.5rem;
     max-width: 1170px;
 }
 
-.ice .feature {
+.lemon .feature {
     padding: 0 30px 1.5rem 30px;
 }
 
-.ice h2 {
+.lemon h2 {
     color: #B22222;
 }
 
-.ice h3 {
+.lemon h3 {
     font-family: "roboto-medium", sans-serif;
     color: #B22222;
 }
 
-.ice .feature-count {
+.lemon .feature-count {
     display: block;
     color: #B22222;
     font-family: "roboto-bold", serif;
@@ -1660,11 +1696,6 @@ header .text-part {
     margin-bottom: 2.4rem;
 }
 
-#registration .lead {
-    column-count: 1;
-    font-family: "roboto-regular", sans-serif;
-    text-align: center;
-}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -1672,28 +1703,54 @@ header .text-part {
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width:768px) {
-    .ice {
+    .salmon {
         padding: 11.4rem 0 10.6rem;
     }
-    .ice .scopeandtopics-wrap {
+    .salmon .scopeandtopics-wrap {
         max-width: 600px;
     }
-    .ice .feature {
+    .salmon .feature {
         padding: 0 15px;
     }
 }
 
 @media only screen and (max-width:600px) {
-    .ice .feature {
+    .salmon .feature {
         padding: 0 10px;
     }
 }
 
 @media only screen and (max-width:400px) {
-    .ice .feature {
+    .salmon .feature {
         padding: 0;
     }
 }
+
+
+@media only screen and (max-width:768px) {
+    .lemon {
+        padding: 11.4rem 0 10.6rem;
+    }
+    .lemon .scopeandtopics-wrap {
+        max-width: 600px;
+    }
+    .lemon .feature {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .lemon .feature {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .lemon .feature {
+        padding: 0;
+    }
+}
+
 
 /* ===================================================================
  * 13. infos - (_layout.scss)
@@ -1979,23 +2036,6 @@ header .text-part {
  * 15. speakers - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-
-.yellow {
-    background: #FFD700;
-    padding-top: 12rem;
-    padding-bottom: 9.6rem;
-}
-
-.yellow p,
-em,
-i,
-strong,
-b {
-    font-size: 2.1rem;
-    line-height: 3rem;
-    font-style: normal;
-    font-weight: normal;
-}
 
 #submissions .lead {
     text-align: center;
