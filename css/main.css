@@ -1616,7 +1616,7 @@ header .text-part {
  * ------------------------------------------------------------------- */
 
 .salmon {
-    background: rgb(255, 160, 120);
+    background: #DCDCDC;
     padding-top: 12rem;
     padding-bottom: 9.6rem;
 }
