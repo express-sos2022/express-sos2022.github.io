@@ -1634,10 +1634,10 @@ b {
 
 .salmon a,
 .salmon a:link {
-    color:#4B0082;
+    color:#6A5ACD;
 }
 .salmon a:hover {
-    color:#000080;
+    color:#483D8B;
 }
 .salmon a:visited {
     color: rgb(210, 1, 60);
